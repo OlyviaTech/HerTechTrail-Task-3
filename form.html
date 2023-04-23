@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+    label {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+    </style>>
+</head>
+<body>
+    <form action="#" method="#">
+        <fieldset>
+            <legend label for="Your address">Your address</legend>
+            <div>
+                <p>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName">       
+                </p>
+                </div>
+            <div>
+                <p>
+                    
+                </p>
+                <label for="Street">Street Name</label>
+                <input type="text" id="Street">
+            </div>
+            <div>
+                <p>
+                <label for="City">City</label>
+                <input type="text" id="City">
+                </p>
+            </div>
+        </fieldset>
+
+        <!--TEXTAREA-->
+        <fieldset>
+            <legend label for="Additional information">Additional information</legend>
+            <div>
+                <p>
+                    <label for="message">Biography</label>
+                    <textarea name="text" id="message" cols="20" rows="2" placeholder="Type here..." maxlength="200"
+                        required></textarea>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="file">Image</label>
+                    <input type="file" id="file">
+                </p>
+            </div>
+            <!--SELECT TAG-->
+            <div>
+                <p>
+                <label for="Age Group">Age Group</label>
+                <select name="Age Group" id="Age Group" size="1">
+                    <option value="0-9 years">0-9 years</option>
+                    <option value="10-18 years">10-18 years</option>
+                    <option value="19-25 years">19-25 years</option>
+                    <option value="26-35 years">26-35 years</option>
+                    <option value="36-60 years">36-60 years</option>
+                    <option value="60-above">60-above</option>
+                </select>
+                </p>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend label for="Additional information">Additional information</legend>
+            <div>
+                <p>
+                <label for="Favourite car?">Favourite car?</label>
+                <select name="Favourite car?" id="Favourite car?">
+                    <option value="Volvo">Volvo</option>
+                    <option value="Corolla">Corolla</option>
+                    <option value="Pathfinder">Pathfinder</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Ferrari">Ferrari</option>
+                    <option value="Toyota">Toyota</option>
+                </select>
+                </p>
+                <div>
+                    <p>
+                        <label for="Hobbies">Hobbies</label>
+                        <select name="Hobbies" id="Hobbies" size="4">
+                            <option value="Playing soccer">Playing soccer</option>
+                            <option value="Dancing">Dancing</option>
+                            <option value="Gardening">Gardening</option>
+                            <option value="Watching movies">Watching movies</option>
+                            <option value="Travelling">Travelling</option>
+                        </select>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="">Favourite public transport?</label>
+                        <select name="Hobbies" id="Hobbies" size="4">
+                            <optgroup label="Ground">
+                                <option value="Train">Train</option>
+                                <option value="Bus">Bus</option>
+                            </optgroup>
+                            <optgroup label="Water"></optgroup>
+                            <option value="Ship">Ship</option>
+                            <option value="Canoe">Canoe</option>
+                        </select>
+                    </p>
+                </div>
+        </fieldset>
+
+        <!--TYPE BUTTON-->
+        <div>
+            <p>
+                <input type="button" value="Submit">
+            </p>
+        </div>
+    </form>
+</body>
+
+</html>
